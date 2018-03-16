@@ -1,25 +1,25 @@
-var app = new Vue({
+const app = new Vue({
     el: "#app",
     data: {
         chamada: 'KOÉEEEE RAPAZIAAAADAAAAAA!!!!'
     }
 })
 
-var app2 = new Vue({
+const app2 = new Vue({
     el: "#app2",
     data: {
-        aviso: 'A página carregou em ' + new Date().toLocaleString()
+        aviso: `A página carregou em ${new Date().toLocaleString()}`
     }
 })
 
-var app3 = new Vue({
+const app3 = new Vue({
     el: "#app3",
     data: {
         seen: true
     }
 })
 
-var app4 = new Vue({
+const app4 = new Vue({
     el: "#app4",
     data: {
         todos: [
@@ -30,7 +30,7 @@ var app4 = new Vue({
     }
 })
 
-var app5 = new Vue({
+const app5 = new Vue({
     el: "#app5",
     data: {
         mensagem: 'REDRUM'
@@ -42,7 +42,7 @@ var app5 = new Vue({
     }
 })
 
-var app6 = new Vue({
+const app6 = new Vue({
     el: "#app6",
     data: {
         lembrete: 'Olá!'
